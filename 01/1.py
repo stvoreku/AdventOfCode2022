@@ -16,4 +16,4 @@ for l in lines:
 #and 1
 print(sorted(ELVES_LIST)[-1])
 #ans 2
-print(sorted(ELVES_LIST)[-1] + sorted(ELVES_LIST)[-2] + sorted(ELVES_LIST)[-3])
+print(sum(sorted(ELVES_LIST)[-3:]))
